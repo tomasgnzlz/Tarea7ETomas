@@ -15,6 +15,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import java.io.File;
 import java.io.IOException;
+import javax.xml.bind.Unmarshaller;
 
 /**
  *
@@ -39,6 +40,11 @@ public class Main {
         // C
         rutaDirectorio = "./aplicacionesJSON";
         generarJSONPorCadaApp(rutaDirectorio, listaApps);
+        
+        // D
+        lecturaFicheroXML();    
+        
+        // E
 
     }
 
@@ -112,10 +118,19 @@ public class Main {
             mapeador.writeValue(new File(rutaDirectorio + "/" + nombreJSON + ".json"), a);
         }
     }
-    
+
     // Método que realiza una lectura del fichero XML y todos los datos  por consola.
-    public static void lecturaFicheroXML(){
-        
+    public static void lecturaFicheroXML() throws JAXBException {
+
+        CatalogoApps catalogoAux = new CatalogoApps();
+
+        JAXBContext contexto = JAXBContext.newInstance(CatalogoApps.class);
+        // Crea el objeto Unmarshaller
+        Unmarshaller um = contexto.createUnmarshaller();
+        catalogoAux = (CatalogoApps) um.unmarshal(new File("catalogo.xml"));
+
+        List<App> listaApps = catalogoAux.getListaApps();
+        listaApps.forEach(System.out::println);
     }
 
 }
