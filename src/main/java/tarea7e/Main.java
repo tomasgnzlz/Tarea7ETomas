@@ -15,6 +15,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 import javax.xml.bind.Unmarshaller;
 
 /**
@@ -38,14 +39,29 @@ public class Main {
         generarFicherosJSON(rutaDirectorio, listaApps);
 
         // C
-        rutaDirectorio = "./aplicacionesJSON";
-        generarJSONPorCadaApp(rutaDirectorio, listaApps);
-        
+        // Lo comento, que sino se generan mas de 50, porque el directorio existe y tiene valores previos
+//        rutaDirectorio = "./aplicacionesJSON";
+//        generarJSONPorCadaApp(rutaDirectorio, listaApps);
         // D
-        lecturaFicheroXML();    
-        
-        // E
+        String nombreFichero = "catalogo.xml";
+        lecturaFicheroXML(nombreFichero);
 
+        // E
+        nombreFichero = "catalogoApps.json";
+        lecturaFicheroJSON(nombreFichero);
+
+        // F
+        rutaDirectorio = "./aplicacionesJSON";
+        System.out.println("\nLISTADO DEL DIRECTORIO: " + rutaDirectorio + "\n");
+        SistemasFicheros.listarDirectorio(rutaDirectorio);
+
+        // G
+        lecturaFicheroConcreto();
+        
+        // H
+//        SistemasFicheros.borrarElemento(rutaDirectorio+ "/app50o.json");
+//        System.out.println("\nLISTADO DEL DIRECTORIO: " + rutaDirectorio + "\n");
+//        SistemasFicheros.listarDirectorio(rutaDirectorio);
     }
 
     // Método que crea 50 aplicaciones usando el constructor por defecto
@@ -119,18 +135,48 @@ public class Main {
         }
     }
 
-    // Método que realiza una lectura del fichero XML y todos los datos  por consola.
-    public static void lecturaFicheroXML() throws JAXBException {
+    // Método que realiza una lectura del fichero XML y muestra todos los datos.
+    public static void lecturaFicheroXML(String nombreFichero) throws JAXBException {
 
         CatalogoApps catalogoAux = new CatalogoApps();
 
         JAXBContext contexto = JAXBContext.newInstance(CatalogoApps.class);
         // Crea el objeto Unmarshaller
         Unmarshaller um = contexto.createUnmarshaller();
-        catalogoAux = (CatalogoApps) um.unmarshal(new File("catalogo.xml"));
+        catalogoAux = (CatalogoApps) um.unmarshal(new File(nombreFichero));
 
         List<App> listaApps = catalogoAux.getListaApps();
         listaApps.forEach(System.out::println);
     }
 
+    // Método que realiza una lectura del fichero JSON y muestra todos los datos.
+    public static void lecturaFicheroJSON(String nombreFichero) throws IOException {
+        List<App> listaAplicaciones = new ArrayList<>();
+        ObjectMapper mapeador = new ObjectMapper();
+
+        listaAplicaciones = mapeador.readValue(new File(nombreFichero),
+                mapeador.getTypeFactory().constructCollectionType(List.class, App.class));
+        System.out.println("---- Lista de Apps ----");
+        for (App app : listaAplicaciones) {
+            System.out.println(app);
+        }
+    }
+
+    // Pregunta al usuario el nombre del fichero json (de los anteriores) que quiere leer. 
+    // Una vez leído muestra los datos de esta app por consola.
+    public static void lecturaFicheroConcreto() throws IOException {
+        Scanner teclado = new Scanner(System.in);
+        String id = "";
+        System.out.println("************************************************************"
+                + "\nIntrooduce el fichero que quieres leer");
+        id = teclado.nextLine();
+
+        // Se puede controlar excepciones
+        System.out.println("\n********* LECTURA DEL FICHERO: " + id);
+        ObjectMapper mapeador = new ObjectMapper();
+
+        App aplicacion = mapeador.readValue(new File("./aplicacionesJSON/" + id), App.class);
+        System.out.println(aplicacion);
+        SistemasFicheros.borrarElemento("./aplicacionesJSON/" + id);
+    }
 }

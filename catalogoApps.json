@@ -1,0 +1,301 @@
+[ {
+  "codigo" : 1,
+  "nombre" : "app1j",
+  "descripcion" : "Tomas4",
+  "numDescargas" : 2348,
+  "tamañoKB" : 634.942183872257
+}, {
+  "codigo" : 2,
+  "nombre" : "app2y",
+  "descripcion" : "Tomas2",
+  "numDescargas" : 2589,
+  "tamañoKB" : 868.6376455296061
+}, {
+  "codigo" : 3,
+  "nombre" : "app3k",
+  "descripcion" : "tomas3",
+  "numDescargas" : 4,
+  "tamañoKB" : 1018.0536112478708
+}, {
+  "codigo" : 4,
+  "nombre" : "app4h",
+  "descripcion" : "Tomas8",
+  "numDescargas" : 1285,
+  "tamañoKB" : 926.897689329985
+}, {
+  "codigo" : 5,
+  "nombre" : "app5a",
+  "descripcion" : "tomas7",
+  "numDescargas" : 522,
+  "tamañoKB" : 231.8417745821996
+}, {
+  "codigo" : 6,
+  "nombre" : "app6p",
+  "descripcion" : "tomas7",
+  "numDescargas" : 2643,
+  "tamañoKB" : 837.8304773144923
+}, {
+  "codigo" : 7,
+  "nombre" : "app7k",
+  "descripcion" : "tomas9",
+  "numDescargas" : 3136,
+  "tamañoKB" : 933.1542464700836
+}, {
+  "codigo" : 8,
+  "nombre" : "app8e",
+  "descripcion" : "Tomas6",
+  "numDescargas" : 4829,
+  "tamañoKB" : 703.5103363503835
+}, {
+  "codigo" : 9,
+  "nombre" : "app9h",
+  "descripcion" : "tomas7",
+  "numDescargas" : 4433,
+  "tamañoKB" : 464.4723530572223
+}, {
+  "codigo" : 10,
+  "nombre" : "app10f",
+  "descripcion" : "tomas7",
+  "numDescargas" : 445,
+  "tamañoKB" : 300.8018773721258
+}, {
+  "codigo" : 11,
+  "nombre" : "app11u",
+  "descripcion" : "tomas1",
+  "numDescargas" : 1621,
+  "tamañoKB" : 707.3010324701818
+}, {
+  "codigo" : 12,
+  "nombre" : "app12w",
+  "descripcion" : "tomas3",
+  "numDescargas" : 2089,
+  "tamañoKB" : 838.2711637764933
+}, {
+  "codigo" : 13,
+  "nombre" : "app13b",
+  "descripcion" : "tomas3",
+  "numDescargas" : 3386,
+  "tamañoKB" : 642.8511474023641
+}, {
+  "codigo" : 14,
+  "nombre" : "app14m",
+  "descripcion" : "Tomas2",
+  "numDescargas" : 2047,
+  "tamañoKB" : 642.0732961726953
+}, {
+  "codigo" : 15,
+  "nombre" : "app15c",
+  "descripcion" : "tomas5",
+  "numDescargas" : 383,
+  "tamañoKB" : 476.2835499384026
+}, {
+  "codigo" : 16,
+  "nombre" : "app16l",
+  "descripcion" : "tomas1",
+  "numDescargas" : 3782,
+  "tamañoKB" : 196.84498041919622
+}, {
+  "codigo" : 17,
+  "nombre" : "app17u",
+  "descripcion" : "tomas3",
+  "numDescargas" : 552,
+  "tamañoKB" : 700.5811729583161
+}, {
+  "codigo" : 18,
+  "nombre" : "app18a",
+  "descripcion" : "Tomas2",
+  "numDescargas" : 4628,
+  "tamañoKB" : 339.3929400607765
+}, {
+  "codigo" : 19,
+  "nombre" : "app19d",
+  "descripcion" : "Tomas6",
+  "numDescargas" : 1845,
+  "tamañoKB" : 1014.7948060107242
+}, {
+  "codigo" : 20,
+  "nombre" : "app20x",
+  "descripcion" : "tomas3",
+  "numDescargas" : 4624,
+  "tamañoKB" : 785.1387677228181
+}, {
+  "codigo" : 21,
+  "nombre" : "app21o",
+  "descripcion" : "tomas7",
+  "numDescargas" : 1100,
+  "tamañoKB" : 652.2166838472758
+}, {
+  "codigo" : 22,
+  "nombre" : "app22b",
+  "descripcion" : "tomas3",
+  "numDescargas" : 2286,
+  "tamañoKB" : 833.5458028057591
+}, {
+  "codigo" : 23,
+  "nombre" : "app23c",
+  "descripcion" : "tomas9",
+  "numDescargas" : 1916,
+  "tamañoKB" : 950.0805711924849
+}, {
+  "codigo" : 24,
+  "nombre" : "app24f",
+  "descripcion" : "Tomas6",
+  "numDescargas" : 1044,
+  "tamañoKB" : 828.9465174126145
+}, {
+  "codigo" : 25,
+  "nombre" : "app25m",
+  "descripcion" : "tomas5",
+  "numDescargas" : 763,
+  "tamañoKB" : 168.21352456746473
+}, {
+  "codigo" : 26,
+  "nombre" : "app26s",
+  "descripcion" : "tomas5",
+  "numDescargas" : 2012,
+  "tamañoKB" : 387.90129506443566
+}, {
+  "codigo" : 27,
+  "nombre" : "app27t",
+  "descripcion" : "tomas3",
+  "numDescargas" : 3968,
+  "tamañoKB" : 342.61826956272625
+}, {
+  "codigo" : 28,
+  "nombre" : "app28s",
+  "descripcion" : "tomas9",
+  "numDescargas" : 1772,
+  "tamañoKB" : 643.9162531800874
+}, {
+  "codigo" : 29,
+  "nombre" : "app29v",
+  "descripcion" : "Tomas6",
+  "numDescargas" : 2863,
+  "tamañoKB" : 996.6659359932264
+}, {
+  "codigo" : 30,
+  "nombre" : "app30b",
+  "descripcion" : "tomas3",
+  "numDescargas" : 4198,
+  "tamañoKB" : 806.8697252985716
+}, {
+  "codigo" : 31,
+  "nombre" : "app31z",
+  "descripcion" : "tomas1",
+  "numDescargas" : 4306,
+  "tamañoKB" : 586.4268352122872
+}, {
+  "codigo" : 32,
+  "nombre" : "app32f",
+  "descripcion" : "Tomas2",
+  "numDescargas" : 2215,
+  "tamañoKB" : 622.002281957236
+}, {
+  "codigo" : 33,
+  "nombre" : "app33a",
+  "descripcion" : "Tomas6",
+  "numDescargas" : 4859,
+  "tamañoKB" : 888.0642448895499
+}, {
+  "codigo" : 34,
+  "nombre" : "app34w",
+  "descripcion" : "tomas3",
+  "numDescargas" : 1900,
+  "tamañoKB" : 458.939255350578
+}, {
+  "codigo" : 35,
+  "nombre" : "app35i",
+  "descripcion" : "Tomas8",
+  "numDescargas" : 2987,
+  "tamañoKB" : 497.77967951482594
+}, {
+  "codigo" : 36,
+  "nombre" : "app36d",
+  "descripcion" : "Tomas8",
+  "numDescargas" : 2806,
+  "tamañoKB" : 105.514264556841
+}, {
+  "codigo" : 37,
+  "nombre" : "app37w",
+  "descripcion" : "tomas5",
+  "numDescargas" : 1979,
+  "tamañoKB" : 830.3697770115967
+}, {
+  "codigo" : 38,
+  "nombre" : "app38o",
+  "descripcion" : "Tomas8",
+  "numDescargas" : 2027,
+  "tamañoKB" : 651.07678798468
+}, {
+  "codigo" : 39,
+  "nombre" : "app39x",
+  "descripcion" : "Tomas6",
+  "numDescargas" : 702,
+  "tamañoKB" : 675.6794156314235
+}, {
+  "codigo" : 40,
+  "nombre" : "app40a",
+  "descripcion" : "tomas1",
+  "numDescargas" : 2206,
+  "tamañoKB" : 897.0460512238554
+}, {
+  "codigo" : 41,
+  "nombre" : "app41v",
+  "descripcion" : "tomas3",
+  "numDescargas" : 4922,
+  "tamañoKB" : 846.6915971273531
+}, {
+  "codigo" : 42,
+  "nombre" : "app42q",
+  "descripcion" : "Tomas4",
+  "numDescargas" : 33,
+  "tamañoKB" : 323.70237401467625
+}, {
+  "codigo" : 43,
+  "nombre" : "app43j",
+  "descripcion" : "Tomas2",
+  "numDescargas" : 4185,
+  "tamañoKB" : 902.502943995375
+}, {
+  "codigo" : 44,
+  "nombre" : "app44p",
+  "descripcion" : "Tomas8",
+  "numDescargas" : 2163,
+  "tamañoKB" : 415.48848720758537
+}, {
+  "codigo" : 45,
+  "nombre" : "app45l",
+  "descripcion" : "tomas3",
+  "numDescargas" : 3197,
+  "tamañoKB" : 535.8494058607029
+}, {
+  "codigo" : 46,
+  "nombre" : "app46e",
+  "descripcion" : "tomas1",
+  "numDescargas" : 4751,
+  "tamañoKB" : 841.7476221339871
+}, {
+  "codigo" : 47,
+  "nombre" : "app47n",
+  "descripcion" : "tomas5",
+  "numDescargas" : 796,
+  "tamañoKB" : 114.36581290788634
+}, {
+  "codigo" : 48,
+  "nombre" : "app48i",
+  "descripcion" : "tomas5",
+  "numDescargas" : 1785,
+  "tamañoKB" : 786.2086692930786
+}, {
+  "codigo" : 49,
+  "nombre" : "app49k",
+  "descripcion" : "Tomas4",
+  "numDescargas" : 4012,
+  "tamañoKB" : 606.6367561629233
+}, {
+  "codigo" : 50,
+  "nombre" : "app50g",
+  "descripcion" : "tomas3",
+  "numDescargas" : 1676,
+  "tamañoKB" : 592.2352717193643
+} ]
